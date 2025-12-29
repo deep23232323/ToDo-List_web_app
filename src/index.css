@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Amatic+SC:wght@400;700&family=Faculty+Glyphic&family=Frijole&family=Josefin+Sans:ital,wght@0,100..700;1,100..700&family=Playwrite+NZ+Guides&family=Press+Start+2P&family=Yarndings+20&display=swap');
+
+.playwrite-nz-guides-regular {
+  font-family: "Playwrite NZ Guides", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+
+
+@import "tailwindcss";
+
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.custom-scrollbar::-webkit-scrollbar {
+    height: 8px !important;
+    width: 8px;
+}
+
+.custom-scrollbar::-webkit-scrollbar-thumb {
+    background-color: #ffffff3b;
+}
